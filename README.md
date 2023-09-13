@@ -18,6 +18,10 @@ Función releaseFunds: Esta función permite al cadete liberar los fondos del pe
 
 Función destroyFunds: Esta función permite destruir los fondos si no se ha confirmado la recepción del pedido después de un cierto período de tiempo. Esto se hace utilizando la función selfdestruct, que envía los fondos restantes al remitente de la transacción.
 
+
 Eventos: El contrato emite tres eventos (OrderCreated, OrderPaid y FundsReleased) que sirven para registrar las acciones importantes que ocurren en el contrato. Estos eventos pueden ser escuchados por aplicaciones externas para mantener un registro de las actividades en el contrato.
 
 En resumen, este contrato inteligente facilita la gestión de pedidos de comida en Ethereum. Los restaurantes, clientes y cadetes interactúan con el contrato para crear, pagar y liberar fondos de pedidos. El contrato asegura que los fondos se manejen de manera segura y automatizada, evitando problemas de confianza en el proceso de entrega.
+
+### Direccion de Lightning Network de Bitcoin:
+lnbc1pjsrhl9pp5ry62zxg8kf4hzhc6ctsnjf07z9s5082hu7vf4x20v8m8f03zpfksdqqcqzzgxqyz5vqrzjqwnvuc0u4txn35cafc7w94gxvq5p3cu9dd95f7hlrh0fvs46wpvhdm59mhnttn2ksqqqqqryqqqqthqqpyrzjqw8c7yfutqqy3kz8662fxutjvef7q2ujsxtt45csu0k688lkzu3ldm59mhnttn2ksqqqqqryqqqqthqqpysp5e0lv4cf494t534nc54tfefuwkq26jnunhuk5806a6xrt03gnrrqq9qypqsq3vqdnuhh5apl53a2q0675tsx6kk656qvkvhcpdl3nd4wgvajf8j9dmzfl0hphcz4tewhwuqlmcslss8msf97vq8t5clu84q2q8ek60qpjw5wgs
